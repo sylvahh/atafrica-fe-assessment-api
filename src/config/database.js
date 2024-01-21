@@ -1,9 +1,17 @@
 module.exports = {
+  production: {
+    username: process.env.DB_USERNAME || 'postgres',
+    password: process.env.DB_PASSWORD || 'postgres',
+    host: process.env.DB_HOST || 'localhost',
+    port: parseInt(process.env.DB_PORT) || 5400,
+    database: process.env.DB_DATABASE || 'postgres',
+    dialect: 'postgres',
+  },
   development: {
     username: process.env.DB_USERNAME || 'postgres',
     password: process.env.DB_PASSWORD || 'postgres',
     host: process.env.DB_HOST || 'localhost',
-    port: parseInt(process.env.DB_PORT) || 5435,
+    port: parseInt(process.env.DB_PORT) || 5400,
     database: process.env.DB_DATABASE || 'postgres',
     dialect: 'postgres',
   },
@@ -11,7 +19,7 @@ module.exports = {
     username: process.env.DB_TEST_USERNAME || 'postgres',
     password: process.env.DB_TEST_PASSWORD || 'postgres',
     host: process.env.DB_TEST_HOST || 'localhost',
-    port: parseInt(process.env.DB_TEST_PORT) || 5436,
+    port: parseInt(process.env.DB_TEST_PORT) || 5401,
     database: process.env.DB_TEST_DATABASE || 'postgres',
     dialect: 'postgres',
   },
