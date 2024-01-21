@@ -1,3 +1,3 @@
-import v1Routes from './v1'
+const v1Routes =require('./v1')
 
-export { v1Routes };
+module.exports ={ v1Routes };

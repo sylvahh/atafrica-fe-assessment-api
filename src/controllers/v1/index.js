@@ -1,5 +1,5 @@
-import { Router } from "express";
-import stockRouter from "./get-stocks"
+const { Router } = require("express");
+const stockRouter = require("./get-stocks")
 
 
 const router = Router()
@@ -8,4 +8,4 @@ const router = Router()
 router.use(stockRouter);
 
 
-export default router
+module.exports = router

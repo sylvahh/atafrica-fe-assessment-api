@@ -1,4 +1,4 @@
-export default function asyncWrapper(callback) {
+module.exports = function asyncWrapper(callback) {
     return function (req, res, next) {
       callback(req, res, next).catch(next);
     };

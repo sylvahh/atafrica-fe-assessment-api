@@ -1,6 +1,6 @@
-import { Router } from 'express';
-import models from '../../models';
-import asyncWrapper from '../../utils/asyncWrapper';
+const { Router } = require('express');
+const models = require('../../models').default;
+const asyncWrapper = require('../../utils/asyncWrapper');
 
 const router = Router();
 const { Stocks } = models;
@@ -21,4 +21,4 @@ router.get(
   })
 );
 
-export default router;
+module.exports = router;

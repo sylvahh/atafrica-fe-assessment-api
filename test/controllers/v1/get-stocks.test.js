@@ -1,5 +1,5 @@
-import TestHelpers from '../../test-helpers';
-import request from 'supertest';
+const TestHelpers = require('../../test-helpers');
+const  request  =require('supertest');
 
 describe('Stocks Controller', () => {
   let app;

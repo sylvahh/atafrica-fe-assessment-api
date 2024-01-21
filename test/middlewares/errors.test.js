@@ -1,7 +1,7 @@
-import environments from '../../src/config/environments';
-import request from 'supertest';
-import express from 'express';
-import errorsMiddleware from '../../src/middlewares/errors';
+const environments = require('../../src/config/environments');
+const request =require('supertest');
+const express = require('express');
+const errorsMiddleware = require('../../src/middlewares/errors');
 
 describe('errorsMiddleware', () => {
   let app;

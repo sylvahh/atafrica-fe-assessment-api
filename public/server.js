@@ -1,3 +1,5 @@
+"use strict";
+
 require('./config');
 const Database = require('./database');
 const environment = require('./config/environments');
@@ -13,9 +15,6 @@ const dbConfig = require('./config/database');
     const app = new App();
     app.listen();
   } catch (error) {
-    console.error(
-      'something went wrong while connecting to the server:\n',
-      error.stack
-    );
+    console.error('something went wrong while connecting to the server:\n', error.stack);
   }
 })();

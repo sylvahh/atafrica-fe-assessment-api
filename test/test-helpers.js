@@ -1,6 +1,6 @@
-import '../src/config';
-import Database from '../src/database';
-import dbConfig from '../src/config/database';
+require('../src/config');
+const Database = require('../src/database');
+const dbConfig = require('../src/config/database');
 
 let db;
 

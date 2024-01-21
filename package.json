@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel ./src --out-dir ./dist",
-    "start": "node dist/server.js",
+    "build": "babel ./src --out-dir ./public",
+    "start": "node public/server.js",
     "debug": "npm run dev -- --inspect",
     "dev": "NODE_ENV=development nodemon --exec babel-node src/server.js",
     "test": "jest --runInBand",

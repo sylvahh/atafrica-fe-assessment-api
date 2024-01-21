@@ -1,5 +1,5 @@
-import TestHelpers from '../test-helpers';
-import models from '../../src/models';
+const TestHelpers = require('../test-helpers');
+const models =  require('../../src/models');
 
 describe('Stocks', () => {
   beforeAll(async () => {
