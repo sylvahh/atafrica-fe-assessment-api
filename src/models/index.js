@@ -10,7 +10,7 @@ let models = {}
     })
 
     for (const file of filterModelFiles) {
-        const model = require(path.join(__dirname, file)).default(sequelize)
+        const model = require(path.join(__dirname, file))(sequelize)
         models[model.name] = model
     }
 
