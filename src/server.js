@@ -9,7 +9,7 @@ const dbConfig = require('./config/database');
   try {
     const db = new Database(environment.nodeEnv, dbConfig);
     await db.connect();
-    const App = require('./app').default;
+    const App = require('./app');
     const app = new App();
     app.listen();
   } catch (error) {
