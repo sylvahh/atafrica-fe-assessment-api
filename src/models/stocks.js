@@ -1,13 +1,8 @@
-import { Model, DataType, DataTypes } from 'sequelize';
-import bcrypt from 'bcrypt';
-import environments from '../config/environments';
+const { Model, DataTypes } = require('sequelize');
 
-export default (sequelize) => {
-  class Stocks extends Model {
-  }
+module.exports= (sequelize) => {
+  class Stocks extends Model {}
 
-
-  
   Stocks.init(
     {
       'Risk Score': {
@@ -62,7 +57,7 @@ export default (sequelize) => {
       sequelize,
       modelName: 'Stocks',
       timestamps: false,
-      primaryKey: false
+      primaryKey: false,
     }
   );
   return Stocks;

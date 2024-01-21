@@ -4,7 +4,8 @@ const logger = require('morgan');
 const cors = require('cors');
 const errorsMiddleware = require('./middlewares/errors');
 const { v1Routes } = require('./controllers');
-export default class App {
+
+module.exports =class App {
   constructor() {
     this.app = express();
     this.app.use(
