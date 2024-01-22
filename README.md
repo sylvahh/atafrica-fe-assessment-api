@@ -1,10 +1,4 @@
-# atafrica-fe-assessment
-
-simple backend onboarding built with Express and sequelize
-
-
-
-**ATAfrica Frontend Assessment - Server Codebase**
+# ATAfrica Frontend Assessment - Server 
 
 **Introduction:**
 Welcome to the ATAfrica Frontend Assessment Server Codebase. This NodeJS project serves as the backend for the landing page designed for a Nigerian RoboAdvisor. As a frontend developer, I aimed to create a robust and efficient server-side application aligned with the expectations for the Mid-level Front End Developer role at ATAfrica.
@@ -16,7 +10,7 @@ This server is designed to support the frontend client in handling data storage 
 - NodeJS: A runtime environment for executing JavaScript code server-side.
 - Database: Postgres, chosen for its relational database capabilities.
 - ORM Tool: Sequelize for efficient Object-Relational Mapping.
-- Other Tools: Render for deployment, GitHub for version control.
+- Other Tools: Render for deployment, GitHub for version control, Docker for databse container.
 
 **Project Structure:**
 The codebase is structured for clarity and ease of maintenance:
