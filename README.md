@@ -44,7 +44,7 @@ The codebase is structured for clarity and ease of maintenance:
 2. Navigate to the project directory: `cd atafrica-fe-assessment-server`
 3. Install dependencies: `npm install`
 4. Run the server: `npm start`
-5. The server will be running at `http://localhost:3001`.
+5. The server will be running at `http://localhost:8080`.
 
 **Live Demo:**
 The server is deployed on Render, supporting the live version of the frontend. Refer to the frontend readme for the live demo link.
