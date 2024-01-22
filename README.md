@@ -11,7 +11,9 @@ This server is designed to support the frontend client in handling data storage 
 - Database: Postgres, chosen for its relational database capabilities.
 - ORM Tool: Sequelize for efficient Object-Relational Mapping.
 - Other Tools: Render for deployment, GitHub for version control, Docker for databse container.
-  **Development Environment:**
+
+  
+**Development Environment:**
 - **Docker:** The project is containerized using Docker for consistent development and deployment across different environments.
 - **NVM (Node Version Manager):** Used for managing Node.js versions, ensuring compatibility.
 
@@ -19,8 +21,7 @@ This server is designed to support the frontend client in handling data storage 
 The codebase is structured for clarity and ease of maintenance:
 - `src/controllers`: Logic for handling API requests.
 - `src/models`: Sequelize models for database interactions.
-- `src/routes`: API routes for different resources.
-- `src/db`: Database configurations.
+- `src/database`: Database configurations.
 
 **Project Tasks:**
 1. **Upload Data to MongoDB:**
@@ -39,10 +40,6 @@ The codebase is structured for clarity and ease of maintenance:
 
 **How to Run Locally:**
 
-## Prerequisite
-- NVM
-- Docker
-  
 1. Clone the repository: `git clone [repository-url]`
 2. Navigate to the project directory: `cd atafrica-fe-assessment-server`
 3. Install dependencies: `npm install`
@@ -54,7 +51,7 @@ The server is deployed on Render, supporting the live version of the frontend. R
 
 **Acknowledgments:**
 - ATAfrica for the opportunity to showcase my skills.
-- Collaborators in ensuring the seamless integration of frontend and backend components.
+
 
 Feel free to reach out for any clarifications or additional information.
 
