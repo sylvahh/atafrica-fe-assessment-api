@@ -11,6 +11,9 @@ This server is designed to support the frontend client in handling data storage 
 - Database: Postgres, chosen for its relational database capabilities.
 - ORM Tool: Sequelize for efficient Object-Relational Mapping.
 - Other Tools: Render for deployment, GitHub for version control, Docker for databse container.
+  **Development Environment:**
+- **Docker:** The project is containerized using Docker for consistent development and deployment across different environments.
+- **NVM (Node Version Manager):** Used for managing Node.js versions, ensuring compatibility.
 
 **Project Structure:**
 The codebase is structured for clarity and ease of maintenance:
