@@ -40,7 +40,7 @@ The codebase is structured for clarity and ease of maintenance:
 
 **How to Run Locally:**
 
-1. Clone the repository: `git clone [repository-url]`
+1. Clone the repository: `git clone https://github.com/sylvahh/atafrica-fe-assessment-api.git`
 2. Navigate to the project directory: `cd atafrica-fe-assessment-server`
 3. Install dependencies: `npm install`
 4. Run the server: `npm start`
