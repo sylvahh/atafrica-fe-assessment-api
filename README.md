@@ -10,7 +10,7 @@ This server is designed to support the frontend client in handling data storage 
 - NodeJS: A runtime environment for executing JavaScript code server-side.
 - Database: Postgres, chosen for its relational database capabilities.
 - ORM Tool: Sequelize for efficient Object-Relational Mapping.
-- Other Tools: Render for deployment, GitHub for version control, Docker for databse container.
+- Other Tools: Render/vercel for deployment, GitHub for version control, Docker for data container.
 
   
 **Development Environment:**
@@ -47,7 +47,7 @@ The codebase is structured for clarity and ease of maintenance:
 5. The server will be running at `http://localhost:8080`.
 
 **Live Demo:**
-The server is deployed on Render, supporting the live version of the frontend. Refer to the frontend readme for the live demo link.
+The server is deployed on Render, supporting the live version of the frontend. Refer to the [frontend](https://github.com/sylvahh/atafrica-fe-assessment) readme for the live demo link.
 
 **Acknowledgments:**
 - ATAfrica for the opportunity to showcase my skills.
